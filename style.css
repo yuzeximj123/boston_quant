@@ -254,6 +254,13 @@ html {
     }
 
 } */
+@media only screen and (max-width: 600px) {
+    .weatherforcastbox {
+        max-width: 90%; /* 限制最大宽度为 20% */
+        padding: 5px; /* 缩小内边距 */
+        font-size: 0.8rem; /* 调整字体大小适配小屏幕 */
+    }
+}
 @media only all and (max-width: 1200px) {
     .collumn{
         width: 31%;
