@@ -36,15 +36,17 @@ html {
     padding: 12px 0 12px 0;
 
 }
-.weatherforcastbox{
+.weatherforcastbox {
     position: relative;
-    width: 12%;
-    left: 10px;
+    width: auto; /* 宽度自适应内容 */
+    max-width: 30%; /* 确保在小屏幕上不会太宽 */
     border: 3px double #2f2f2f;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px; /* 内边距保持一致 */
     line-height: 20px;
-    display: inline-block;
-    margin: 0 50px 20px -360px;
+    display: block; /* 为了让它可以被 flexbox 或 margin 居中 */
+    margin: 20px auto; /* 自动水平居中并设置上方和下方间距 */
+    text-align: center; /* 居中对齐内容 */
+    box-sizing: border-box; /* 确保宽度包含边框和内边距 */
 }
 .content{
     font-size: 0;
