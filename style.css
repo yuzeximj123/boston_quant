@@ -246,12 +246,12 @@ html {
 
 /*________________________________________________________________________________________________________________________________*/
 /*MEDIAQUERIES*/
-@media only all and (max-width: 1300px) {
+/* @media only all and (max-width: 1300px) {
     .weatherforcastbox{
         display: none;
     }
 
-}
+} */
 @media only all and (max-width: 1200px) {
     .collumn{
         width: 31%;
